@@ -393,7 +393,7 @@ void redraw(int sleepTime){ // функция рисования в графич
 		int npoints1 = 3;	
 		
 		XClearWindow(dspl, hwnd);
-
+		// добавление треугольников
 		for (i = 0; i < npoints1; i++) rpoints1[i] = points1[i];
 		for (i = 0; i < npoints1; i++) rpoints2[i] = points2[i];
 		for (i = 0; i < npoints1; i++) rpoints3[i] = points3[i];
